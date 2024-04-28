@@ -2,6 +2,10 @@ name: Release nomore403 binary
 
 on:
   workflow_dispatch:
+    inputs:
+      zpa:
+        description: |
+          zpa
 
 jobs:
   build:
